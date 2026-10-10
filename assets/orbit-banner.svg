@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">Braylon — curious by default</title>
+  <desc id="desc">Midnight blue starfield with a luminous violet planet, cyan orbital rings, and a music waveform. Tech, space, design, music.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080d1c"/><stop offset="1" stop-color="#15102b"/></linearGradient>
+    <radialGradient id="nebula"><stop stop-color="#6947e5" stop-opacity=".3"/><stop offset="1" stop-color="#6947e5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="planet" cx=".28" cy=".22" r=".95"><stop stop-color="#c8b6ff"/><stop offset=".3" stop-color="#8b6de8"/><stop offset=".7" stop-color="#3b2d79"/><stop offset="1" stop-color="#121428"/></radialGradient>
+    <linearGradient id="ring"><stop stop-color="#65e6df" stop-opacity=".2"/><stop offset=".45" stop-color="#8aeef5"/><stop offset="1" stop-color="#8d6eea" stop-opacity=".3"/></linearGradient>
+    <linearGradient id="wave"><stop stop-color="#62e6de"/><stop offset="1" stop-color="#c0a0ff"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#82a1bc" stroke-opacity=".055"/></pattern>
+    <clipPath id="bounds"><rect width="1200" height="450" rx="24"/></clipPath>
+    <clipPath id="planetClip"><circle cx="918" cy="205" r="88"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="450" fill="url(#bg)"/>
+    <ellipse cx="965" cy="180" rx="355" ry="295" fill="url(#nebula)"/>
+    <rect width="1200" height="450" fill="url(#grid)"/>
+    <g fill="#cbdaf4" opacity=".65">
+      <circle cx="39" cy="167" r="1.4"/><circle cx="331" cy="44" r="1"/><circle cx="571" cy="99" r="1.2"/><circle cx="695" cy="41" r="1.5"/><circle cx="768" cy="139" r="1"/><circle cx="804" cy="80" r="1.8"/><circle cx="1019" cy="84" r="1.2"/><circle cx="1105" cy="160" r="1.5"/><circle cx="1173" cy="303" r="1"/><circle cx="1068" cy="333" r="1.3"/><circle cx="739" cy="327" r="1.6"/><circle cx="649" cy="257" r="1"/><circle cx="109" cy="332" r="1"/><circle cx="1141" cy="39" r="1"/><circle cx="600" cy="388" r="1.2"/><circle cx="438" cy="329" r="1"/>
+    </g>
+    <g fill="none" stroke="#9db4d7" stroke-opacity=".5"><path d="M726 82h12m-6-6v12"/><path d="M1098 267h10m-5-5v10"/></g>
+    <path d="M64 53h24m-24 0v24M1136 373v24h-24" fill="none" stroke="#66e4df" stroke-opacity=".65" stroke-width="2"/>
+    <text x="64" y="93" fill="#7cdedc" font-family="monospace" font-size="16" letter-spacing="3">BRAYLON89 / PERSONAL ORBIT</text>
+    <text x="60" y="204" fill="#f4f3ff" font-family="Arial, Helvetica, sans-serif" font-size="98" font-weight="800" letter-spacing="-5">BRAYLON</text>
+    <text x="64" y="263" fill="#d4cee9" font-family="Arial, Helvetica, sans-serif" font-size="32" letter-spacing="-.5">Curious by default.</text>
+    <text x="65" y="309" fill="#9ca8c4" font-family="Arial, Helvetica, sans-serif" font-size="21">Tech. Space. Design. Music.</text>
+    <circle cx="70" cy="387" r="5" fill="#67e7cb"/>
+    <text x="88" y="392" fill="#a0b1c8" font-family="monospace" font-size="14" letter-spacing="2">EXPLORING · LEARNING · CREATING</text>
+    <g fill="none" stroke="#9f88e8"><circle cx="918" cy="205" r="135" stroke-opacity=".16"/><circle cx="918" cy="205" r="167" stroke-opacity=".12" stroke-dasharray="3 12"/></g>
+    <ellipse cx="918" cy="205" rx="202" ry="56" transform="rotate(-28 918 205)" fill="none" stroke="url(#ring)" stroke-width="2"/>
+    <circle cx="918" cy="205" r="89" fill="#a58bff" opacity=".12"/>
+    <circle cx="918" cy="205" r="88" fill="url(#planet)"/>
+    <g clip-path="url(#planetClip)" fill="none" stroke="#dcd5ff" stroke-opacity=".12">
+      <ellipse cx="918" cy="205" rx="55" ry="88"/><ellipse cx="918" cy="205" rx="23" ry="88"/>
+      <ellipse cx="918" cy="205" rx="88" ry="29"/><path d="M830 205h176M842 163h152M842 247h152"/>
+    </g>
+    <path d="M740 285C742 317 832 296 918 253C1012 206 1089 148 1096 126" fill="none" stroke="url(#ring)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1055" cy="142" r="7" fill="#7ee9e8"/><circle cx="1055" cy="142" r="13" fill="none" stroke="#7ee9e8" stroke-opacity=".22"/>
+    <text x="1062" y="57" fill="#9faccc" font-family="monospace" font-size="12" letter-spacing="2">SIGNAL / ON</text>
+    <path d="M827 357v12m10-23v34m10-46v58m10-72v86m10-64v42m10-24v6m10-44v82m10-67v52m10-91v130m10-97v64m10-47v30m10-56v82m10-61v40m10-16v-8m10-19v46m10-58v70m10-52v34m10-22v10m10-17v24m10-13v2" fill="none" stroke="url(#wave)" stroke-width="4" stroke-linecap="round"/>
+    <rect x=".5" y=".5" width="1199" height="449" rx="24" fill="none" stroke="#31334b"/>
+  </g>
+</svg>
