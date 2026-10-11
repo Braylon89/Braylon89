@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Braylon89/Braylon89/main/assets/orbit-banner.svg" width="100%" alt="Braylon — curious by default. An orbital planet and music waveform in midnight blue, cyan, and violet." />
+  <img src="https://raw.githubusercontent.com/Braylon89/Braylon89/main/assets/profile-banner.png" width="100%" alt="Braylon — curious by default. A crystal ringed planet and music equalizer with icy blue, lavender, and pearlescent chrome accents." />
 </p>
 
 <p align="center">
@@ -31,3 +31,4 @@ I'm exploring the overlap between **technology, design, the universe, and sound*
 <p align="center">
   <sub><b>STAY CURIOUS · MAKE SOMETHING · ENJOY THE PROCESS</b></sub>
 </p>
+
